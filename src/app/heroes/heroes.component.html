@@ -1,9 +1,13 @@
 <h2>My Heroes</h2>
-<div>
-  <ul class="heroes">
-    <li [class.selected]="hero==selectedHero" *ngFor="let hero of heroes" (click)="onSelect(hero)">
-      <span class="badge">id:{{hero.id}}</span><span>{{hero.name}}</span>
-    </li>
-  </ul>
+<div class="row">
+  <div class="columnLeft">
+    <ul class="heroes">
+      <li [class.selected]="hero==selectedHero" *ngFor="let hero of heroes" (click)="onSelect(hero)">
+        <span class="badge">id:{{hero.id}}</span><span>{{hero.name}}</span>
+      </li>
+    </ul>
+  </div>
+  <div class="columnRight">
+    <app-hero-detail [selectedHero]="selectedHero"></app-hero-detail>
+  </div>
 </div>
-<app-hero-detail [selectedHero]="selectedHero"></app-hero-detail>
