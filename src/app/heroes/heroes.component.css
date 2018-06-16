@@ -24,8 +24,9 @@
 }
 .columnRight {
     float: left;
-    width: 70%;
+    width: 30%;
     height: 300px; /* Should be removed. Only for demonstration */
+    padding-left: 100px;
 }
 
 /* Clear floats after the columns */
