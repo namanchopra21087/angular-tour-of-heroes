@@ -5,9 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class MessageService {
 
+  message:String;
   constructor() { }
 
-  getMessage():String{
-    return "Heroes Details Fetched Successfully";
+  addMessage():void{
+    this.message="Heroes Details Fetched Successfully";
   }
 }

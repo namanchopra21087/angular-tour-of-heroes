@@ -11,3 +11,7 @@
     <app-hero-detail [selectedHero]="selectedHero"></app-hero-detail>
   </div>
 </div>
+
+<div class="messageBottom" *ngIf="selectedHero">
+  <app-message></app-message>
+</div>

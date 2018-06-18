@@ -35,3 +35,7 @@
     display: table;
     clear: both;
 }
+
+.messageBottom{
+    padding: 35px;
+}
