@@ -11,7 +11,9 @@ export class MessageComponent implements OnInit {
   message:String;
   
   constructor(public messageService:MessageService) {
-    this.messageService.addMessage();
+  }
+  clear():void{
+    this.messageService.clear();
   }
 
   ngOnInit() {}
