@@ -10,3 +10,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:large;
 }
+
+.messageBottom{
+    padding: 1px;
+}
+
+.backButton{
+    background-color:darkgrey;
+    text-align: center;
+}

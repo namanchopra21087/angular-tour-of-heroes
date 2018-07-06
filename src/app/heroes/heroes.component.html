@@ -2,16 +2,12 @@
 <div class="row">
   <div class="columnLeft">
     <ul class="heroes">
-      <li [class.selected]="hero==selectedHero" *ngFor="let hero of heroes" (click)="onSelect(hero)">
-        <span class="badge">id:{{hero.id}}</span><span>{{hero.name}}</span>
+      <li *ngFor="let hero of heroes">
+        <a routerLink="/detail/{{hero.id}}">
+            <span class="badge">id:{{hero.id}}</span><span>{{hero.name}}</span>
+        </a>
       </li>
     </ul>
   </div>
-  <div class="columnRight">
-    <app-hero-detail [selectedHero]="selectedHero"></app-hero-detail>
-  </div>
 </div>
 
-<div class="messageBottom" *ngIf="selectedHero">
-  <app-message></app-message>
-</div>

@@ -9,7 +9,13 @@ import { Observable, of } from 'rxjs';
 export class HeroService {
 
   constructor() {}
+
   getHeroes():Observable<Hero[]>{
     return of(HEROES);
   }
+  
+  getHero(id:number):Observable<Hero>{
+    return of(HEROES.find(hero=>hero.id===id));
+  }
+
 }

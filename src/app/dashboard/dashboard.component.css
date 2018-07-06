@@ -1,0 +1,18 @@
+.grid{
+    margin: 0%;
+}
+.grid-padding{
+    padding: 10px;
+}
+.col-1-4{
+    width: 25%;
+}
+.module {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+    background-color: #607d8b;
+    border-radius: 2px;
+  }

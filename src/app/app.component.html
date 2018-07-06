@@ -1,7 +1,12 @@
  <h1>
     Welcome to {{ title }}!
  </h1>
- <app-heroes></app-heroes>
+ <nav>
+    <a class='heroesHeader' routerLink='/dashboard'>DashBoard</a>
+    <a class='heroesHeader' routerLink='/heroes'>Heroes</a>
+ </nav>
+ 
+ <router-outlet></router-outlet>
   
 
 
