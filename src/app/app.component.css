@@ -28,3 +28,14 @@
     height: 300px; /* Should be removed. Only for demonstration */
     padding-left: 100px;
 }
+
+.leftHalf{
+    width: 20%;
+    left: 0%;
+    float: left;
+}
+.rightHalf{
+    width: 80%;
+    right: 0%;
+    float: left;
+}

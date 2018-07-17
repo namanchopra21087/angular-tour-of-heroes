@@ -1,12 +1,18 @@
  <h1>
     Welcome to {{ title }}!
  </h1>
- <nav>
-    <a class='heroesHeader' routerLink='/dashboard'>DashBoard</a>
-    <a class='heroesHeader' routerLink='/heroes'>Heroes</a>
- </nav>
+ <div class="leftHalf">
+     <div>
+        <a class='heroesHeader' routerLink='/dashboard'>DashBoard</a>
+     </div>
+    <div>
+        <a class='heroesHeader' routerLink='/heroes'>Heroes</a>
+    </div>
+ </div>
+ <div class="rightHalf">
+    <router-outlet></router-outlet>
+ </div>
  
- <router-outlet></router-outlet>
   
 
 
