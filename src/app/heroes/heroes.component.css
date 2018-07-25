@@ -12,6 +12,7 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
     vertical-align: top;
+    margin-top: 5px;
   }
 .selected {
     background-color: #CFD8DC !important;
@@ -20,7 +21,7 @@
 .columnLeft {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 400px; /* Should be removed. Only for demonstration */
 }
 .columnRight {
     float: left;

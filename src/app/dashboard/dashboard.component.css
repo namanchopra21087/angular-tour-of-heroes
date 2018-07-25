@@ -10,9 +10,10 @@
 .module {
     display: inline-block;
     text-align: center;
-    color: #eee;
+    color: white;
+    background-color:#607d8b;
     max-height: 120px;
     min-width: 120px;
-    background-color: #607d8b;
     border-radius: 2px;
+    margin-left: 10px;
   }
