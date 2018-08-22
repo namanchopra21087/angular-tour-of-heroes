@@ -30,7 +30,7 @@
 }
 
 .leftHalf{
-    width: 15%;
+    padding-right: 15px;
     height: 70%;
     left: 0%;
     float: left;
